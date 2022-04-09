@@ -1,5 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontawesome";
 import {faPlay,faPause,faAngleLeft,faAngleRight} from '@fortawesome/free-solid-svg-icons';
 
 const Player = ({audioRef,currentSong,setIsPlaying,isPlaying,setSongInfo,songInfo,songs,setCurrentSong,setSongs}) => {
